@@ -15,7 +15,7 @@ It may be useful to applications that don't know in advance the schema or model 
 ### Demonstration
 ![Example](Example.png)
 
-Reference `Mayer.Data.Models.Concepts` and obtain the service.
+Reference `NounBase` and obtain the service.
 ```
 var service = services.GetService<ITokenService>();
 ```
