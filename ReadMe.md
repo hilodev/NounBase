@@ -1,7 +1,7 @@
 ﻿# NounBase: a relational token data service
 
 A simple portable data service library to persist and access nouns by context in .NET Core in an Sqlite file.
-![Screenshot](NounModel.png)
+![Screenshot](TokenModel.png)
 
 ## Getting Started
 
