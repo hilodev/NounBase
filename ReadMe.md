@@ -1,6 +1,6 @@
 ﻿# NounBase: a relational token data service
 
-A lightweight, portable platform, data service library to persist and access nouns by context in .NET Core in an Sqlite file.
+A lightweight, portable platform, data service library to persist and access nouns by context (no formal schema) in .NET Core in an Sqlite file.
 ![Screenshot](TokenModel.png)
 
 ## Getting Started
@@ -9,8 +9,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Who is this for?
 
-.NET core developers needing a fast, lightweight, dynamic semantic entity token graph persistence and query mechanism. 
-It may be useful to applications that don't know in advance the schema or model component relations but need to dynamically capture holonymic/meronymic semantic relations of labeled observations.
+.NET core developers needing a fast, lightweight, token graph persistence and query mechanism. 
+It may be useful to applications that don't know in advance the schema or model component relations but need to dynamically capture relations of .
 
 ### Demonstration
 ![Example](Example.png)
@@ -41,19 +41,9 @@ var states = service.Get(@"Countries\US\States");
 Console.WriteLine((states.Children.Where(x=>x.Token=="HI").Count()==1)? "PASS":"FAIL")
 ```
 
-## Acknowledgments/Current Projects
-
-Grateful to anyone contributing or using this project (please list it here by being a contributor or opening an issue here with a link to your project).
-    -
-
 ## Contributing
 
-Please contribute to this project! There is no roadmap per se, but beneficial pull requests will be merged. In general, the goals are to query and persist semantic relations dynamically.
-
-## Authors
-
-**Dan Mayer Sr** - Initial work - ez2rem
-See also the list of contributors who participated in this project.
+Please contribute to this project! There is no roadmap per se, but beneficial pull requests will be merged. In general, the goals are to query and persist semantic relations between tokens without a schema.
 
 ## License
 
