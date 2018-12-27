@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Who is this for?
 
-.NET core developers needing a fast, lightweight, token graph persistence and query mechanism. 
+.NET core developers needing a token graph persistence and query mechanism. 
 It may be useful to applications that don't know in advance the schema or model component relations but need to dynamically capture relations of .
 
 ### Demonstration
